@@ -1,0 +1,13 @@
+{% block head %}
+
+<title>Hello Message</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+<body>
+    <div class="centered" >
+        <h2>{{result[0]}} <span id = 'result'>{{result[1]}}</span></h2>
+        <p align="center"><a href="" >Get Source Code</a></p>
+    </div>
+</body>
+</html>

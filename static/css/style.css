@@ -1,0 +1,44 @@
+
+body{
+    background-color: blanchedalmond;
+    margin: 0 auto;
+}
+.submit{
+    width: 150px;
+    height: 30px;
+    background-color: darkcyan;
+    border-color: darkcyan;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+input{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+#result{
+    color: white;
+    background-color: blueviolet;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+p{
+    padding-top: 5px;
+    font-size: 20px;
+}
+a{
+    font-style: italic;
+    text-decoration: none;
+
+}

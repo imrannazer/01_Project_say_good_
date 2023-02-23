@@ -1,0 +1,19 @@
+{% block head %}
+
+<title>Hello Message</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+    <div class="centered ">
+        <form action="/welcome" method="POST" name="message" >
+        
+            <label for="name" ><h3>Enter your name : </h3></label>
+
+            <label for=""><input type="text" id="name1" name="name1" placeholder="Plese! Enter your name here......... "></label >
+
+            <label for="" ><input type="submit" value="Submit Now" class="submit" ></label>
+            
+        </form>
+    </div>
+{% endblock %}
